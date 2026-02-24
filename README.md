@@ -83,6 +83,55 @@ Helps optimize workload distribution and improve team performance.
 
 ---
 
+## 📘 Key Definitions
+
+Below are definitions of important metrics used in this dashboard:
+
+### 🔹 MTTR (Mean Time to Resolution)
+Average time taken to resolve an incident from the time it was created until it was closed.  
+Lower MTTR indicates higher operational efficiency.
+
+---
+
+### 🔹 Reopen Rate (%)
+Percentage of incidents that were reopened after being marked as resolved or closed.  
+A high reopen rate may indicate incomplete resolutions or quality issues.
+
+---
+
+### 🔹 Incident Backlog
+The number of open incidents that have not yet been resolved.  
+Used to measure operational workload and service pressure.
+
+---
+
+### 🔹 Resolver Assignment
+Number of incidents assigned to a specific resolver.  
+Helps evaluate workload distribution across the team.
+
+---
+
+### 🔹 Reassignment Rate (%)
+Percentage of incidents that were reassigned to different resolvers.  
+High reassignment may indicate process inefficiencies or incorrect initial routing.
+
+---
+
+### 🔹 Handoff
+When an incident is transferred from one resolver to another.  
+Multiple handoffs can increase resolution time and reduce efficiency.
+
+---
+
+### 🔹 Priority Level
+Classification of incidents based on severity and business impact (e.g., Low, Medium, High, Blocker).  
+Higher priority incidents typically require faster resolution.
+
+---
+
+### 🔹 Resolver Workload
+Average number of incidents handled by each resolver.  
+Used to assess workload balance and team capacity utilization.
 ## 🛠 Tools and Technologies
 
 - Power BI  
